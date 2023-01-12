@@ -2,7 +2,7 @@
   <div class="container">
       <div class="info-grid">
           <span class="ref-terminal">
-              <span class="color-info-user-terminal">victor@victor-A320M-S2H</span>
+              <span class="color-info-user-terminal">victor@victor</span>
               <span class="color-path-system-terminal">~/Documents/informacoes$</span>
               <span> head sobre_mim.txt</span>
           </span>
