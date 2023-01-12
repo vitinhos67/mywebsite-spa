@@ -30,7 +30,7 @@
       <br />
       <div>
           <div class="skills">
-              <h4>Tecnologias:</h4>
+              <h2>Tecnologias:</h2>
 
               <br />
               <img
@@ -78,7 +78,7 @@
 
               <br />
               <br />
-              <h4>Banco de dados:</h4>
+              <h2>Banco de dados:</h2>
               <br />
 
               <img
@@ -100,18 +100,18 @@
 
               <br />
               <br />
-              <h4>Metodologias Àgeis:</h4>
+              <h2>Metodologias Àgeis:</h2>
               <br />
-              <span>Scrum</span>
+              <span style="font-size:22px">Scrum</span>
 
               <br />
               <br />
-              <span class="default-break-line">
+              <span class="default-break-line p-default">
                   Se especializar em novas tecnologias são sempre um desafio, com isso novas responsabilidades também,
                   é isto sempre será bem-vindo.
               </span>
               <br />
-              <span class="default-break-line">
+              <span class="default-break-line p-default">
                   Todo conteúdo acima pode ser visto em meu
                   <a href="https://github.com/vitinhos67" target="_blank">Git Hub</a>.
               </span>
@@ -141,7 +141,7 @@
           </div>
           <br />
           <span class="cert-ref">Voce pode encontrar minhas certificações através do meu currículo</span>
-          <span class="cert-ref">
+          <span class="cert-ref p-default">
               <a
                   class="curriculo-link"
                   href="https://drive.google.com/file/d/1GEmqKmwYjUlHOmK1zX1b09IDLLg_54mI/view?usp=share_link"
@@ -171,13 +171,7 @@ export default {
   margin: 0%;
   padding: 0%;
 }
-
-body {
-  text-align: left;
-}
-
 p {
-  width: 500px;
   text-align: left;
 }
 
@@ -194,11 +188,14 @@ a:hover {
 }
 
 .container {
-  padding-left: 30px;
-  float: left;
+  width: 1200px;
+
+  padding: 30px 0px 0px 20px
+
 }
 
 .info-text {
+  font-size: 24px;
   padding-top: 5px;
 }
 
@@ -225,28 +222,41 @@ a:hover {
   filter: invert(1);
 }
 
-@media screen and (min-width: 800px) {
+.ref-terminal {
+  font-size: 23px;
+}
+
+.p-default {
+  font-size: 19px;
+}
+
+
+
+@media screen and (min-width: 800px) and (max-width:1200px){
   .container {
-      width: 500px;
+      width: 700px;
+
   }
 }
 
 @media screen and (min-width: 700px) and (max-width: 799px) {
   .container {
-      width: 450px;
+      width: 500px;
+    
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 699px) {
   .container {
-      width: 450px;
+      width: 500px;
+
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 599px) {
   .container {
-      padding: 12px;
-      width: 300px;
+    padding: 10px 0px 0px 12px;
+      width: 350px;
   }
 }
 
@@ -256,11 +266,10 @@ a:hover {
       width: 280px;
   }
 }
-
 @media screen and (min-width: 300px) and (max-width: 399px) {
   .container {
       padding: 5px;
-      width: 280px;
+      width: 360px;
   }
 
   .social img {
@@ -271,7 +280,7 @@ a:hover {
 @media screen and (max-width: 299px) {
   .container {
       padding: 0px;
-      width: 225px;
+      width: 250px;
   }
 
   .skills img {
