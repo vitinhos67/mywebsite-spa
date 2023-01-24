@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-
+import PageNotFound from '../components/PageNotFound'
 
 const routes = [
   {
@@ -7,6 +7,11 @@ const routes = [
     name: 'home',
     component: () => import('../components/HomeVue')
   },
+  {
+    path: "/:catchAll(.*)",
+    name: "PageNotFound",
+    component: PageNotFound
+  }
 
 ]
 

@@ -7,7 +7,7 @@
               <span> head sobre_mim.txt</span>
           </span>
 
-          <div class="info-text">
+          <div class="description">
               <span>
                   Prazer, sou o Victor, meu primeiro contato com computadores vem desde bem novo, no entanto, esse
                   relacionamento se aprimorou quando comecei a trabalhar em uma loja de informatica, em que formatei
@@ -30,7 +30,7 @@
       <br />
       <div>
           <div class="skills">
-              <h2>Tecnologias:</h2>
+              <h3>Tecnologias:</h3>
 
               <br />
               <img
@@ -78,7 +78,7 @@
 
               <br />
               <br />
-              <h2>Banco de dados:</h2>
+              <h3>Banco de dados:</h3>
               <br />
 
               <img
@@ -100,16 +100,13 @@
 
               <br />
               <br />
-              <h2>Metodologias Àgeis:</h2>
+              <h3>Metodologias Àgeis:</h3>
               <br />
-              <span style="font-size:22px">Scrum</span>
+              <span style="font-size:20px">Scrum</span>
 
               <br />
               <br />
-              <span class="default-break-line p-default">
-                  Se especializar em novas tecnologias são sempre um desafio, com isso novas responsabilidades também,
-                  é isto sempre será bem-vindo.
-              </span>
+
               <br />
               <span class="default-break-line p-default">
                   Todo conteúdo acima pode ser visto em meu
@@ -119,39 +116,10 @@
       </div>
 
       <br />
-      <div>
-          <h2>Sociais</h2>
 
-          <div class="social">
-              <a href="https://github.com/vitinhos67" name="github" target="_blank"
-                  ><img class="social-icons-link" src="../assets/github.png" alt="GitHub"
-              /></a>
-              <a href="https://twitter.com/victorsanttos67" target="_blank"
-                  ><img class="social-icons-link" src="../assets/twitter.png" alt="Twitter"
-              /></a>
-              <a href="https://www.linkedin.com/in/victorsanttos/" target="_blank"
-                  ><img class="social-icons-link" src="../assets/linkedin.png" alt="Linkedin"
-              /></a>
-              <a href="https://medium.com/@santtosvictor42" target="_blank"
-                  ><img class="social-icons-link" src="../assets/medium.png" alt="Medium"
-              /></a>
-              <a href="https://dev.to/vitinhos67" target="_blank"
-                  ><img class="social-icons-link" src="../assets/dev-to.png" alt="Dev-to"
-              /></a>
-          </div>
-          <br />
-          <span class="cert-ref">Voce pode encontrar minhas certificações através do meu currículo</span>
-          <span class="cert-ref p-default">
-              <a
-                  class="curriculo-link"
-                  href="https://drive.google.com/file/d/1GEmqKmwYjUlHOmK1zX1b09IDLLg_54mI/view?usp=share_link"
-                  target="_blank"
-              >
-                  clique aqui para ter acesso ao meu currículo.
-              </a>
-          </span>
-      </div>
   </div>
+
+  <br/>
 </template>
 
 <script>
@@ -188,19 +156,19 @@ a:hover {
 }
 
 .container {
-  width: 1200px;
-
+  width: 1150px;
+  height: 705px;
   padding: 30px 0px 0px 20px
 
 }
 
-.info-text {
-  font-size: 24px;
-  padding-top: 5px;
+.description {
+  font-size: 25px;
+  padding-top: 10px;
 }
 
 .skills img {
-  padding-left: 3px;
+  padding-left: 5px;
 }
 
 .default-break-line {
@@ -223,7 +191,7 @@ a:hover {
 }
 
 .ref-terminal {
-  font-size: 23px;
+  font-size: 22px;
 }
 
 .p-default {
@@ -234,61 +202,107 @@ a:hover {
 
 @media screen and (min-width: 800px) and (max-width:1200px){
   .container {
-      width: 700px;
-
+      width: 600px;
+      height: 1000px;
   }
+
+  .description {
+  font-size: 22px;
+  padding-top: 10px;
+}
 }
 
 @media screen and (min-width: 700px) and (max-width: 799px) {
   .container {
       width: 500px;
-    
+      height: 1150px;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 699px) {
   .container {
       width: 500px;
-
+      height: 1150px;
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 599px) {
   .container {
+
     padding: 10px 0px 0px 12px;
       width: 350px;
+      height: 1450px;
   }
 }
 
 @media screen and (min-width: 400px) and (max-width: 499px) {
   .container {
       padding: 10px;
-      width: 280px;
+      font-size: 10px;
+      width: 400px;
+      height: 860px;
   }
+
+  .ref-terminal {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
 }
 @media screen and (min-width: 300px) and (max-width: 399px) {
   .container {
       padding: 5px;
       width: 360px;
+
+      height: 1450px;
   }
 
-  .social img {
-      width: 40px;
+  .ref-terminal {
+    font-size: 18px;
   }
+
+  
 }
 
 @media screen and (max-width: 299px) {
   .container {
+
       padding: 0px;
       width: 250px;
   }
 
-  .skills img {
-      width: 70px;
+  .ref-terminal {
+    font-size: 18px;
   }
 
-  .social img {
-      width: 30px;
+  .description {
+    font-size: 18px;
   }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+
+      padding: 10px;
+      width: 300px;
+      height: 1225px;
+  }
+
+  .ref-terminal {
+    font-size: 18px;
+  }
+
+  .container span {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+
 }
 </style>

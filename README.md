@@ -1,4 +1,8 @@
-# mywebsite2.0
+# Meu site Pessoal
+
+
+## Voce pode acessa-lo em: https://victorsanttos.com
+
 
 ## Project setup
 ```
@@ -14,11 +18,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
