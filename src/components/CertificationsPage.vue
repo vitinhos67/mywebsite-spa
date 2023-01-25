@@ -51,7 +51,7 @@
         <br />
       </span>
       <br />
-      <div style="word-wrap: break-word">
+      <span>
         <p>
           <a
             class="title"
@@ -62,7 +62,19 @@
         </p>
         <p class="instituicao">Udemy - 23 horas de duração</p>
         <br />
-      </div>
+      </span>
+      <span>
+        <p>
+          <a
+            class="title"
+            href="https://www.udemy.com/certificate/UC-afcec1af-3e1b-459b-83fc-eaeb635f1480/"
+          >
+            JavaScript Funcional e Reativo - PENSE como um Dev JS
+          </a>
+        </p>
+        <p class="instituicao">Udemy - 17 horas de duração</p>
+        <br />
+      </span>
     </div>
   </div>
 </template>

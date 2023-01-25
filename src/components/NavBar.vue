@@ -4,9 +4,9 @@
       <li class="nav__item">
         <a href="/">Home</a>
       </li>
-      <li class="nav__item certifications">
+      <!--       <li class="nav__item certifications">
         <a href="/certificacoes">Certificações</a>
-      </li>
+      </li> -->
     </ul>
   </nav>
 </template>
