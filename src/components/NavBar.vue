@@ -1,7 +1,9 @@
 <template>
   <nav class="nav">
     <ul class="nav__wrapper">
-      <li class="nav__item"><a href="/">Home</a></li>
+      <li class="nav__item">
+        <a href="/">Home</a>
+      </li>
       <li class="nav__item certifications">
         <a href="/certificacoes">Certificações</a>
       </li>
@@ -18,7 +20,7 @@ nav {
   background-color: #0e0e16;
   display: flex;
   width: 100%;
-  height: 60px;
+  height: 55px;
   border-bottom: #17172b 1px solid;
 }
 

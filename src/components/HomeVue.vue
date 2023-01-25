@@ -145,6 +145,7 @@ export default {
   margin: 0%;
   padding: 0%;
 }
+
 p {
   text-align: left;
 }
@@ -163,7 +164,7 @@ a:hover {
 
 .container {
   width: 1150px;
-  height: 900px;
+  height: 850px;
   padding: 30px 0px 0px 20px;
 }
 
@@ -196,6 +197,7 @@ a:hover {
 }
 
 .ref-terminal {
+  font-family: "Ubuntu Mono";
   font-size: 22px;
 }
 
@@ -206,7 +208,7 @@ a:hover {
 @media screen and (min-width: 800px) and (max-width: 1200px) {
   .container {
     width: 600px;
-    height: 1000px;
+    height: 1100px;
   }
 
   .description {
@@ -218,14 +220,14 @@ a:hover {
 @media screen and (min-width: 700px) and (max-width: 799px) {
   .container {
     width: 500px;
-    height: 1150px;
+    height: 1350px;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 699px) {
   .container {
     width: 500px;
-    height: 1150px;
+    height: 1450px;
   }
 }
 
@@ -233,7 +235,7 @@ a:hover {
   .container {
     padding: 10px 0px 0px 12px;
     width: 350px;
-    height: 1450px;
+    height: 1900px;
   }
 }
 
@@ -242,7 +244,7 @@ a:hover {
     padding: 10px;
     font-size: 10px;
     width: 400px;
-    height: 860px;
+    height: 1100px;
   }
 
   .ref-terminal {
@@ -258,7 +260,7 @@ a:hover {
     padding: 5px;
     width: 360px;
 
-    height: 1450px;
+    height: 1900px;
   }
 
   .ref-terminal {
@@ -273,26 +275,6 @@ a:hover {
   }
 
   .ref-terminal {
-    font-size: 18px;
-  }
-
-  .description {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .container {
-    padding: 10px;
-    width: 300px;
-    height: 1225px;
-  }
-
-  .ref-terminal {
-    font-size: 18px;
-  }
-
-  .container span {
     font-size: 18px;
   }
 
