@@ -49,7 +49,7 @@
   width: 100%;
   font-family: "Open Sans", sans-serif;
   background-color: #0e0e16;
-  border: #17172b 1px solid;
+  border-top: #17172b 1px solid;
   height: 100%;
   display: flex;
 }

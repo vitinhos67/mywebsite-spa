@@ -19,7 +19,7 @@ nav {
   display: flex;
   width: 100%;
   height: 60px;
-  border: #17172b 1px solid;
+  border-bottom: #17172b 1px solid;
 }
 
 ul li {
