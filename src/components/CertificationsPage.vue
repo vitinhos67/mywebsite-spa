@@ -81,7 +81,7 @@ export default {
   margin: 0 auto;
   width: 100%;
   word-wrap: break-word;
-  height: 540px;
+  height: 645px;
 }
 
 .container-cert-pg h1 {
