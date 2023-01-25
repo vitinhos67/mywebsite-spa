@@ -48,7 +48,7 @@
               TypeScript do básico ao avançado (c/ React, Express)</a
             >
           </h2>
-          <span class="instituicao">Udemy - 14 Horas de duração</span> <br />
+          <span class="instituicao">Udemy - 14 horas de duração</span> <br />
         </span>
         <br />
         <span>
@@ -60,7 +60,7 @@
               Node.js Microservices: NestJS, RabbitMQ and Cloud Services</a
             >
           </h2>
-          <span class="instituicao">Udemy - 23 Horas de duração</span> <br />
+          <span class="instituicao">Udemy - 23 horas de duração</span> <br />
         </span>
       </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
   <nav class="nav">
     <ul class="nav__wrapper">
-      <li class="nav__item"><a href="/home">Home</a></li>
+      <li class="nav__item"><a href="/">Home</a></li>
       <li class="nav__item certifications">
         <a href="/certificacoes">Certificações</a>
       </li>
