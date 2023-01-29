@@ -1,26 +1,31 @@
 import { createRouter, createWebHistory } from "vue-router";
-import PageNotFound from "../components/PageNotFound";
-import CertificationsPage from "../components/CertificationsPage";
-
+import PageNotFound from "../views/PageNotFound";
+import CertificationsPage from "../views/CertificationsPage";
+import ProjectsPage from "../views/ProjectsPage";
 const routes = [
   {
     path: "/",
     name: "home",
-    component: () => import("../components/HomeVue"),
+    component: () => import("../views/HomeVue"),
   },
   {
     path: "/home",
     redirect: "/",
   },
   {
-    path: "/:catchAll(.*)",
-    name: "PageNotFound",
-    component: PageNotFound,
-  },
-  {
     path: "/certificacoes",
     name: "Certificacoes",
     component: CertificationsPage,
+  },
+  {
+    path: "/projetos",
+    name: "Projetos",
+    component: ProjectsPage,
+  },
+  {
+    path: "/:catchAll(.*)",
+    name: "PageNotFound",
+    component: PageNotFound,
   },
 ];
 
