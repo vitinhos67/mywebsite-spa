@@ -1,12 +1,6 @@
 <template>
   <div class="container">
     <div class="info-grid">
-      <span class="ref-terminal">
-        <span class="color-info-user-terminal">victor@victor</span>
-        <span class="color-path-system-terminal">~/Documents/informacoes$</span>
-        <span> head sobre_mim.txt</span>
-      </span>
-
       <div class="description">
         <span>
           Prazer, sou o Victor, meu primeiro contato com computadores vem desde
@@ -163,9 +157,10 @@ a:hover {
 }
 
 .container {
-  width: 1150px;
-  height: 850px;
-  padding: 30px 0px 0px 20px;
+  width: 800px;
+  padding-top: 20px;
+  height: 1000px;
+  margin: 0 auto;
 }
 
 .description {
@@ -181,24 +176,11 @@ a:hover {
   word-wrap: break-word;
 }
 
-.color-info-user-terminal {
-  color: green;
-}
-
-.color-path-system-terminal {
-  color: rgb(39, 39, 225);
-}
-
 .social-icons-link {
   width: 50px;
   padding-top: 10px;
   padding-left: 15px;
   filter: invert(1);
-}
-
-.ref-terminal {
-  font-family: "Ubuntu Mono";
-  font-size: 22px;
 }
 
 .p-default {
@@ -236,6 +218,7 @@ a:hover {
     padding: 10px 0px 0px 12px;
     width: 350px;
     height: 1900px;
+    font-size: 18px;
   }
 }
 
@@ -260,7 +243,10 @@ a:hover {
     padding: 5px;
     width: 360px;
 
-    height: 1900px;
+    height: 1400px;
+  }
+  .container span {
+    font-size: 18px;
   }
 
   .ref-terminal {
@@ -272,6 +258,7 @@ a:hover {
   .container {
     padding: 0px;
     width: 250px;
+    font-size: 15px;
   }
 
   .ref-terminal {
