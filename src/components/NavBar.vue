@@ -20,8 +20,14 @@ nav {
   background-color: #0e0e16;
   display: flex;
   width: 100%;
-  height: 55px;
+  height: 75px;
   border-bottom: #17172b 1px solid;
+}
+
+nav a {
+  font-size: 35px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 ul li {
@@ -29,7 +35,7 @@ ul li {
   list-style: none;
   font-size: 25px;
   position: absolute;
-  top: 13px;
+  top: 12px;
   left: 25px;
 }
 
