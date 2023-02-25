@@ -85,85 +85,61 @@
             alt=""
           />
         </div>
-      </div>
-    </div>
-
-    <h1 style="margin-bottom: 25px">Veja alguns de meus projetos</h1>
-
-    <div class="card-container">
-      <div class="card">
-        <div class="card-header" style="background-color: #1b1e2e">
-          <h2>Chat Online</h2>
-        </div>
-        <div class="card-body" style="background-color: #0e1019">
-          <p>
-            Uma API que disponibiliza a conexão unidirecinal com o objetivo de
-            tornar possivel a comunicação entre dois clientes.
-          </p>
-        </div>
-        <div class="card-footer" style="background-color: #1b1e2e">
-          <a
-            href="https://github.com/vitinhos67/online_chat-back-end"
-            target="_blank"
-            >Ir para o repositório</a
-          >
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header" style="background-color: #1b1e2e">
-          <h2>OfertaCar</h2>
-        </div>
-        <div class="card-body" style="background-color: #0e1019">
-          <p>
-            A ideia da API e reunir diversos anuncios de automoveis em um unico
-            lugar de forma que o cliente possa analisar as melhores ofertas. API
-            sendo construida em Nest.js e utiliza do Puppeteer como um
-            web-crawler (Em construção)
-          </p>
-        </div>
-        <div class="card-footer" style="background-color: #1b1e2e">
-          <a
-            href="https://github.com/vitinhos67/search-car-prices"
-            target="_blank"
-            >Ir para o repositório</a
-          >
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" style="background-color: #1b1e2e">
-          <h2>Sistema de Jogos</h2>
-        </div>
-        <div class="card-body" style="background-color: #0e1019">
-          <p>
-            API construido em Nest.js seguindo os padrões de uma arquitetura
-            monolitica. A api funciona como um sistema de jogos em que podemos
-            cadastrar jogadores, desafia-los e mais.
-          </p>
-        </div>
-        <div class="card-footer" style="background-color: #1b1e2e">
-          <a
-            href="https://github.com/vitinhos67/sistema-de-jogos-nestjs"
-            target="_blank"
-            >Ir para o repositório</a
-          >
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" style="background-color: #1b1e2e">
-          <h2>Spotify API</h2>
-        </div>
-        <div class="card-body" style="background-color: #0e1019">
-          <p>
-            API criada em Node.js com o uso do express e mongodb que tem o foco
-            na utilização da API do spotify para cadastrar, encontrar, curtir,
-            gerar playlists utilizando do que e disponivel por eles.
-          </p>
-        </div>
-        <div class="card-footer" style="background-color: #1b1e2e">
-          <a href="https://github.com/vitinhos67/spotify_api" target="_blank"
-            >Ir para o repositório</a
-          >
+        <h1 style="padding: 25px 0 25px 0">Projetos</h1>
+        <h2>
+          Algums de meus projetos em destaque, se por interesse voce pode ver
+          todos outros em meu github
+        </h2>
+        <div class="card-container">
+          <div class="card" style="background-color: #1b1e2e">
+            <h2>Spotify API</h2>
+            <p>
+              API criada em Node.js com o uso do express e mongodb que tem o
+              foco na utilização da API do spotify para cadastrar, encontrar,
+              curtir, gerar playlists utilizando do que e disponivel por eles.
+            </p>
+            <a href="https://github.com/vitinhos67/spotify_api" target="_blank"
+              >Ir para o repositório</a
+            >
+          </div>
+          <div class="card" style="background-color: #1b1e2e">
+            <h2>Chat Online</h2>
+            <p>
+              Uma API que disponibiliza a conexão unidirecinal com o objetivo de
+              tornar possivel a comunicação entre dois clientes.
+            </p>
+            <a
+              href="https://github.com/vitinhos67/online_chat-back-end"
+              target="_blank"
+              >Ir para o repositório</a
+            >
+          </div>
+          <div class="card" style="background-color: #1b1e2e">
+            <h2>OfertaCar</h2>
+            <p>
+              A ideia da API e reunir diversos anuncios de automoveis em um
+              unico lugar de forma que o cliente possa analisar as melhores
+              ofertas. API sendo construida em Nest.js (Em desinvolvimento)
+            </p>
+            <a
+              href="https://github.com/vitinhos67/search-car-prices"
+              target="_blank"
+              >Ir para o repositório</a
+            >
+          </div>
+          <div class="card" style="background-color: #1b1e2e">
+            <h2>Sistema de jogos</h2>
+            <p>
+              API construido em Nest.js seguindo os padrões de uma arquitetura
+              monolitica. O projeto e um sistema de jogos capaz de cadastrar
+              jogadores, desafia-los entre si
+            </p>
+            <a
+              href="https://github.com/vitinhos67/sistema-de-jogos-nestjs"
+              target="_blank"
+              >Ir para o repositório</a
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -194,14 +170,6 @@ p {
 
 h1 {
   color: var(--color-h1-text);
-}
-
-a {
-  color: #316192;
-}
-
-a:hover {
-  color: green;
 }
 
 .container {
@@ -242,63 +210,64 @@ a:hover {
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1000px;
-  margin: 0 auto;
+  justify-content: space-around;
+  background-color: #0e1019;
+  padding: 20px;
 }
 
 .card {
-  width: calc(25% - 10px);
-  margin-bottom: 20px;
-  border-radius: 5px;
-  overflow: hidden;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
-}
-
-.card-header {
-  padding: 20px;
+  width: 45%;
+  margin: 10px;
   color: #fff;
-}
+  border: 1px solid black;
 
-.card-header h2 {
-  margin: 0;
-  font-size: 24px;
-}
-
-.card-body {
-  padding: 20px;
-  color: #fff;
-}
-
-.card-footer {
-  padding: 20px;
   text-align: center;
-  background-color: #1b1e2e;
+  padding: 20px;
+  border-radius: 5px;
 }
 
-.card-footer a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
+.card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.card a {
+  display: inline-block;
+  font-size: 1em;
   padding: 10px 20px;
-  border: 1px solid #fff;
-  border-radius: 20px;
-  transition: background-color 0.3s ease;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+
+  text-decoration: none;
 }
 
-.card-footer a:hover {
+.card a:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #fff;
-  color: #1b1e2e;
+  color: black;
 }
-@media only screen and (max-width: 768px) {
+
+@media screen and (max-width: 800px) {
   .card {
-    width: calc(50% - 10px);
+    width: 45%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: 90%;
   }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {
   .container {
-    width: 600px;
+    width: 100%;
+    float: none;
     height: 1100px;
   }
 
