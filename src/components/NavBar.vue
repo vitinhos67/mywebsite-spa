@@ -35,7 +35,7 @@ ul li {
   list-style: none;
   font-size: 25px;
   position: absolute;
-  top: 12px;
+  top: 10px;
   left: 25px;
 }
 

@@ -87,7 +87,7 @@
         </div>
         <h1 style="padding: 25px 0 25px 0">Projetos</h1>
         <h2>
-          Algums de meus projetos em destaque, se por interesse voce pode ver
+          Algums de meus projetos em destaque, se por interesse você pode ver
           todos outros em meu github
         </h2>
         <div class="card-container">
@@ -119,7 +119,7 @@
             <p>
               A ideia da API e reunir diversos anuncios de automoveis em um
               unico lugar de forma que o cliente possa analisar as melhores
-              ofertas. API sendo construida em Nest.js (Em desinvolvimento)
+              ofertas. API sendo construida em Nest.js (Em desenvolvimento)
             </p>
             <a
               href="https://github.com/vitinhos67/search-car-prices"
@@ -175,8 +175,10 @@ h1 {
 .container {
   width: 1000px;
   padding-top: 20px;
+  padding-left: 20px;
   height: 1000px;
   margin: 0 auto;
+  margin-bottom: 700px;
 }
 
 .description {
@@ -268,6 +270,7 @@ h1 {
   .container {
     width: 100%;
     float: none;
+    background-color: #0e1019;
     height: 1100px;
   }
 
@@ -281,6 +284,8 @@ h1 {
   .container {
     width: 500px;
     height: 1350px;
+
+    margin-bottom: 1300px;
   }
 }
 
@@ -288,6 +293,8 @@ h1 {
   .container {
     width: 500px;
     height: 1450px;
+
+    margin-bottom: 1150px;
   }
 }
 
@@ -295,8 +302,10 @@ h1 {
   .container {
     padding: 10px 0px 0px 12px;
     width: 350px;
+
     height: 1900px;
     font-size: 18px;
+    margin-bottom: 340vh;
   }
 }
 
@@ -304,8 +313,9 @@ h1 {
   .container {
     padding: 10px;
     font-size: 10px;
+
     width: 400px;
-    height: 1100px;
+    height: 1200px;
   }
 
   .ref-terminal {
@@ -320,8 +330,7 @@ h1 {
   .container {
     padding: 5px;
     width: 360px;
-
-    height: 1400px;
+    height: 300vh;
   }
   .container span {
     font-size: 18px;
@@ -337,6 +346,7 @@ h1 {
     padding: 0px;
     width: 250px;
     font-size: 15px;
+    margin-bottom: 340vh;
   }
 
   .ref-terminal {
