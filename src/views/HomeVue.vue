@@ -5,10 +5,11 @@
         <span style="display: block; color: yellow"
           >Um pequeno entusiasta na programação.</span
         >
-        Decicando meu tempo para me tornar um programador. Com grande vontade de
-        aprender sobre diversas áreas, mas entendendo sobre os limites e então
-        começando com Javascript, na qual o principal foco está no ambiente de
-        execução node.js.
+        Dedicando meu tempo para me tornar um programador. Com grande vontade de
+        aprender sobre diversas áreas e tecnologias, na qual estou aberto também
+        a me dedicar, no entanto, meu principal foco esta no
+        <span style="color: yellow">Javascript</span> , na qual o principal foco
+        está no ambiente de execução <span style="color: yellow">node.js</span>.
       </h1>
       <h1>
         Afim de se manter constantemente aprendendo, e acima de tudo poder
@@ -86,8 +87,8 @@
         </div>
         <h1 style="padding: 25px 0 25px 0">Projetos</h1>
         <h2>
-          Algums de meus projetos em destaque, se por interesse você pode ver
-          todos outros em meu Git Hub
+          Algums de meus projetos em destaque, se por interesse, você pode ver
+          todos outros em meu Git Hub.
         </h2>
         <div class="card-container">
           <div class="card" style="background-color: #1b1e2e">
@@ -175,7 +176,6 @@ h1 {
 .container {
   width: 1000px;
   padding-top: 20px;
-  padding-left: 20px;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 100px;
@@ -256,7 +256,19 @@ h1 {
     width: 45%;
   }
 }
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .container {
+    padding-left: 20px;
+    width: 800px;
+  }
+}
+
 @media screen and (max-width: 600px) {
+  .container {
+    padding-left: 10px;
+  }
+
   .card {
     width: 90%;
   }
@@ -277,23 +289,34 @@ h1 {
   }
 }
 
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+
 @media screen and (min-width: 500px) and (max-width: 599px) {
   .container {
-    padding: 10px 0px 0px 12px;
     width: 350px;
   }
 }
 
 @media screen and (min-width: 400px) and (max-width: 499px) {
   .container {
-    padding: 10px;
     width: 400px;
   }
 }
 
 @media screen and (min-width: 300px) and (max-width: 399px) {
   .container {
-    padding: 5px;
     width: 350px;
     margin-bottom: 50px;
   }
