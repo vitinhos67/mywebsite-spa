@@ -2,21 +2,20 @@
   <div class="container">
     <div>
       <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta odit
-        doloremque repellendus consequuntur, in officiis. Beatae, reiciendis
-        veritatis excepturi amet magni, hic deserunt ipsa quas ab earum,
-        dignissimos tenetur? Accusantium? Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Repellendus ducimus cumque facilis! Voluptatem, eos.
-        Amet beatae dolorum sunt? Consectetur, quae! Architecto aliquid iusto
-        ut, culpa necessitatibus iste nobis sunt vitae! Lorem ipsum dolor sit,
-        amet consectetur adipisicing elit. Cumque ex qui assumenda laboriosam
-        sunt doloribus. Laudantium dolorum eligendi totam nemo facilis autem,
-        veniam sunt, quos eveniet similique pariatur quae assumenda?
+        <span style="display: block; color: yellow"
+          >Um pequeno entusiasta na programação.</span
+        >
+        Decicando meu tempo para me tornar um programador. Com grande vontade de
+        aprender sobre diversas áreas, mas entendendo sobre os limites e então
+        começando com Javascript, na qual o principal foco está no ambiente de
+        execução node.js.
+      </h1>
+      <h1>
+        Afim de se manter constantemente aprendendo, e acima de tudo poder
+        colaborar positivamente.
       </h1>
 
-      <h2 style="padding: 25px 0 25px 0">Algumas de minhas qualificações</h2>
-
-      <div class="skills">
+      <div class="skills" style="margin-top: 30px">
         <h2>Tecnologias:</h2>
         <div style="padding: 25px 0 25px 0">
           <img
@@ -88,7 +87,7 @@
         <h1 style="padding: 25px 0 25px 0">Projetos</h1>
         <h2>
           Algums de meus projetos em destaque, se por interesse você pode ver
-          todos outros em meu github
+          todos outros em meu Git Hub
         </h2>
         <div class="card-container">
           <div class="card" style="background-color: #1b1e2e">
@@ -178,7 +177,8 @@ h1 {
   padding-left: 20px;
   height: 1000px;
   margin: 0 auto;
-  margin-bottom: 700px;
+  margin-top: 30px;
+  margin-bottom: 400px;
 }
 
 .description {
@@ -293,8 +293,17 @@ h1 {
   .container {
     width: 500px;
     height: 1450px;
+    margin-bottom: 550px;
+  }
+}
 
-    margin-bottom: 1150px;
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
   }
 }
 
@@ -326,11 +335,22 @@ h1 {
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 399px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+}
+
 @media screen and (min-width: 300px) and (max-width: 399px) {
   .container {
     padding: 5px;
     width: 360px;
-    height: 300vh;
+    height: 220vh;
   }
   .container span {
     font-size: 18px;

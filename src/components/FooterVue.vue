@@ -9,16 +9,32 @@
       <div class="social">
         <h3>Redes Sociais</h3>
 
-        <img
-          style="padding: 0px"
-          class="social-icons"
-          src="../assets/images/dev-to.png"
-          alt=""
-        />
-        <img class="social-icons" src="../assets/images/github.png" alt="" />
-        <img class="social-icons" src="../assets/images/linkedin.png" alt="" />
-        <img class="social-icons" src="../assets/images/medium.png" alt="" />
-        <img class="social-icons" src="../assets/images/twitter.png" alt="" />
+        <a href="https://github.com/vitinhos67" target="_blank"
+          ><img
+            class="social-icons"
+            src="../assets/images/github.png"
+            alt="Git Hub"
+        /></a>
+        <a href="https://www.linkedin.com/in/victorsanttos/" target="_blank"
+          ><img
+            class="social-icons"
+            src="../assets/images/linkedin.png"
+            alt="Linkedin"
+        /></a>
+        <a href="https://dev.to/vitinhos67" target="_blank">
+          <img
+            class="social-icons"
+            src="../assets/images/dev-to.png"
+            alt="Dev to"
+          />
+        </a>
+        <a href="https://twitter.com/victorsanttos67" target="_blank">
+          <img
+            class="social-icons"
+            src="../assets/images/twitter.png"
+            alt="Twitter"
+          />
+        </a>
       </div>
     </div>
   </footer>
