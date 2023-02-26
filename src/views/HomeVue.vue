@@ -104,7 +104,7 @@
           <div class="card" style="background-color: #1b1e2e">
             <h2>Chat Online</h2>
             <p>
-              Uma API que disponibiliza a conexão unidirecinal com o objetivo de
+              Uma API que disponibiliza a conexão bidirecinal com o objetivo de
               tornar possivel a comunicação entre dois clientes.
             </p>
             <a
