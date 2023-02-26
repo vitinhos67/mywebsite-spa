@@ -169,16 +169,16 @@ p {
 
 h1 {
   color: var(--color-h1-text);
+  font-size: clamp(1.75em, 1em + 3vw, 2.5em);
 }
 
 .container {
   width: 1000px;
   padding-top: 20px;
   padding-left: 20px;
-  height: 1000px;
   margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: 400px;
+  margin-bottom: 100px;
 }
 
 .description {
@@ -192,10 +192,6 @@ h1 {
 
 .skills img {
   padding-left: 5px;
-}
-
-.default-break-line {
-  word-wrap: break-word;
 }
 
 .social-icons-link {
@@ -266,44 +262,18 @@ h1 {
   }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-  .container {
-    width: 100%;
-    float: none;
-    background-color: #0e1019;
-    height: 1100px;
-  }
-
-  .description {
-    font-size: 22px;
-    padding-top: 10px;
-  }
-}
-
 @media screen and (min-width: 700px) and (max-width: 799px) {
   .container {
     width: 500px;
-    height: 1350px;
 
-    margin-bottom: 1300px;
+    margin-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 699px) {
   .container {
     width: 500px;
-    height: 1450px;
-    margin-bottom: 550px;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  h1 {
-    font-size: 25px;
-  }
-
-  h2 {
-    font-size: 20px;
+    margin-bottom: 80px;
   }
 }
 
@@ -311,53 +281,21 @@ h1 {
   .container {
     padding: 10px 0px 0px 12px;
     width: 350px;
-
-    height: 1900px;
-    font-size: 18px;
-    margin-bottom: 340vh;
   }
 }
 
 @media screen and (min-width: 400px) and (max-width: 499px) {
   .container {
     padding: 10px;
-    font-size: 10px;
-
     width: 400px;
-    height: 1200px;
-  }
-
-  .ref-terminal {
-    font-size: 18px;
-  }
-
-  .description {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 399px) {
-  h1 {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 15px;
   }
 }
 
 @media screen and (min-width: 300px) and (max-width: 399px) {
   .container {
     padding: 5px;
-    width: 360px;
-    height: 220vh;
-  }
-  .container span {
-    font-size: 18px;
-  }
-
-  .ref-terminal {
-    font-size: 18px;
+    width: 350px;
+    margin-bottom: 50px;
   }
 }
 
@@ -365,16 +303,7 @@ h1 {
   .container {
     padding: 0px;
     width: 250px;
-    font-size: 15px;
     margin-bottom: 340vh;
-  }
-
-  .ref-terminal {
-    font-size: 18px;
-  }
-
-  .description {
-    font-size: 18px;
   }
 }
 </style>
