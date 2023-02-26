@@ -5,15 +5,16 @@
         <span style="display: block; color: yellow"
           >Um pequeno entusiasta na programação.</span
         >
-        Dedicando meu tempo para me tornar um programador. Com grande vontade de
-        aprender sobre diversas áreas e tecnologias, na qual estou aberto também
-        a me dedicar, no entanto, meu principal foco esta no
-        <span style="color: yellow">Javascript</span> , na qual o principal foco
-        está no ambiente de execução <span style="color: yellow">node.js</span>.
+        Dedicando meu tempo a programação. Com grande vontade de aprender sobre
+        diversas áreas e tecnologias, na qual estou aberto também a me dedicar,
+        no entanto agora meu principal foco esta no
+        <span style="color: yellow">Javascript</span>, com o ambiente de
+        execução <span style="color: yellow">node.js</span>.
       </h1>
+      <br />
       <h1>
-        Afim de se manter constantemente aprendendo, e acima de tudo poder
-        colaborar positivamente.
+        Afim de me manter constantemente aprendendo, e acima de tudo sempre
+        poder colaborar positivamente.
       </h1>
 
       <div class="skills" style="margin-top: 30px">
