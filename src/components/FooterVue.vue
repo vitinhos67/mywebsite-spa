@@ -3,11 +3,10 @@
     <div class="container">
       <div class="contact">
         <h3>Contato</h3>
-
         <p>Email: santtosvictor42@gmail.com</p>
       </div>
       <div class="social">
-        <h3>Redes Sociais</h3>
+        <h3 style="padding-left: 15px">Redes Sociais</h3>
 
         <a href="https://github.com/vitinhos67" target="_blank"
           ><img
@@ -60,6 +59,7 @@ footer {
 .contact,
 .social {
   width: 100%;
+
   margin-bottom: 30px;
 }
 
@@ -80,7 +80,8 @@ footer {
 
 .social-icons {
   width: 50px;
-  padding-left: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
   filter: invert(100%);
 }
 

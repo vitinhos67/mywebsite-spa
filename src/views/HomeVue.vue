@@ -17,6 +17,14 @@
         poder colaborar positivamente.
       </h1>
 
+      <div class="cv-grid">
+        <h2 style="padding-top: 25px">Acesse meu curriculo através do Drive</h2>
+        <a
+          href="https://drive.google.com/file/d/1TTCes5mB4BYwi3i3CmOXeKy4cxbtPJt5/view"
+          target="_blank"
+          ><button class="btn-cv">Acessar o curriculo</button></a
+        >
+      </div>
       <div class="skills" style="margin-top: 30px">
         <h2>Tecnologias:</h2>
         <div style="padding: 25px 0 25px 0">
@@ -185,6 +193,29 @@ h1 {
 .description {
   font-size: 25px;
   padding-top: 10px;
+}
+
+.cv-grid {
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.btn-cv {
+  font-size: 15px;
+  width: 200px;
+  height: 50px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #fff;
+  background-color: #000;
+}
+
+.btn-cv:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+  color: black;
 }
 
 .badges {
