@@ -1,13 +1,13 @@
 <template>
+  <NavBar></NavBar>
   <router-view />
-  <Footer />
 </template>
 
 <script>
-import Footer from "./components/FooterVue.vue";
+import NavBar from "./components/NavBar.vue";
 export default {
   components: {
-    Footer,
+    NavBar,
   },
 };
 </script>
@@ -23,7 +23,6 @@ export default {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #0e1019;
-  color: white;
+  background-color: #f3f1f6;
 }
 </style>

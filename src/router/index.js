@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import PageNotFound from "../views/PageNotFound";
-import CertificationsPage from "../views/CertificationsPage";
+
 import ProjectsPage from "../views/ProjectsPage";
 const routes = [
   {
@@ -11,11 +11,6 @@ const routes = [
   {
     path: "/home",
     redirect: "/",
-  },
-  {
-    path: "/certificacoes",
-    name: "Certificacoes",
-    component: CertificationsPage,
   },
   {
     path: "/projetos",
