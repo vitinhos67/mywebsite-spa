@@ -18,6 +18,31 @@
             >Baixar curriculo</a
           >
         </div>
+
+        <div class="sociais-div">
+          <p>Sociais</p>
+
+          <img src="../assets/images/sociais/github.png" alt="" />
+          <img src="../assets/images/sociais/twitter.png" alt="" />
+          <img src="../assets/images/sociais/linkedin.png" alt="" />
+          <img src="../assets/images/sociais/dev-to.png" alt="" />
+        </div>
+
+        <div class="lang-images-div">
+          <p>Linguagens</p>
+
+          <img
+            src="../assets/images/languages/java.png"
+            alt=""
+            class="lang-images"
+          />
+
+          <img
+            src="../assets/images/languages/javascript.png"
+            alt=""
+            class="lang-images"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -32,6 +57,10 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+.body {
+  background-color: #f3f1f6;
+}
 
 .container {
   height: 91vh;
@@ -78,6 +107,32 @@ export default {
 
 .container-2 .btf1 p {
   font-family: "Montserrat", sans-serif;
+}
+
+.sociais-div {
+  width: 100%;
+  margin-top: 35px;
+  height: 150px;
+}
+.sociais-div p {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+.sociais-div img {
+  width: 5vh;
+  margin: 10px;
+}
+
+.lang-images-div .lang-images {
+  width: 10vh;
+  padding: 10px;
+}
+.lang-images-div p {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 35px;
 }
 
 @media (max-width: 1200px) {
