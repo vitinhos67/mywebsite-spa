@@ -81,13 +81,17 @@ export default {
 }
 
 @media (max-width: 1200px) {
-  .btf1 {
-    top: 80px;
+  .container {
+    flex-direction: column;
   }
 
   .container-2 .btf1 h1 {
     font-size: 50px;
     font-family: "Montserrat", sans-serif;
+  }
+
+  .img-1 {
+    width: 100%;
   }
 
   .btn-curriculo {
@@ -96,12 +100,12 @@ export default {
     border-radius: 8px;
   }
 
-  .container-1 {
-    flex: 1; /* Alterado para flex: 1 */
+  .btf1 {
+    text-align: center;
   }
 
-  .img-1 {
-    width: 120%;
+  .container-1 {
+    flex: 1; /* Alterado para flex: 1 */
   }
 }
 
@@ -110,8 +114,26 @@ export default {
     width: 100%;
   }
 
+  .btf1 {
+    text-align: center;
+  }
+
   .container {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .btf1 p {
+    margin: 0px;
+  }
+
+  .btn-curriculo {
+    font-size: 10px;
+  }
+
+  .container-2 .btf1 h1 {
+    font-size: 50px;
   }
 }
 </style>
