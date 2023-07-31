@@ -39,10 +39,17 @@
       <div class="sociais-div">
         <p>Sociais</p>
 
-        <img src="../assets/images/sociais/github.png" alt="" />
-        <img src="../assets/images/sociais/twitter.png" alt="" />
-        <img src="../assets/images/sociais/linkedin.png" alt="" />
-        <img src="../assets/images/sociais/dev-to.png" alt="" />
+        <a href="https://github.com/vitinhos67" target="_blank">
+          <img src="../assets/images/sociais/github.png" alt=""
+        /></a>
+
+        <a
+          href="https://www.linkedin.com/in/victorsanttos/
+        "
+          target="_blank"
+        >
+          <img src="../assets/images/sociais/linkedin.png" alt=""
+        /></a>
       </div>
     </div>
   </div>
