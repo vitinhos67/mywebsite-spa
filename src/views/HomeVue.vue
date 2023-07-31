@@ -19,24 +19,15 @@
           >
         </div>
 
-        <div class="sociais-div">
-          <p>Sociais</p>
-
-          <img src="../assets/images/sociais/github.png" alt="" />
-          <img src="../assets/images/sociais/twitter.png" alt="" />
-          <img src="../assets/images/sociais/linkedin.png" alt="" />
-          <img src="../assets/images/sociais/dev-to.png" alt="" />
-        </div>
-
         <div class="lang-images-div">
           <p>Linguagens</p>
-
+          <InformationLanguageTooltip :message="javascriptInformation" />
           <img
             src="../assets/images/languages/java.png"
             alt=""
             class="lang-images"
           />
-
+          <InformationLanguageTooltip :message="javascriptInformation" />
           <img
             src="../assets/images/languages/javascript.png"
             alt=""
@@ -44,14 +35,34 @@
           />
         </div>
       </div>
+
+      <div class="sociais-div">
+        <p>Sociais</p>
+
+        <img src="../assets/images/sociais/github.png" alt="" />
+        <img src="../assets/images/sociais/twitter.png" alt="" />
+        <img src="../assets/images/sociais/linkedin.png" alt="" />
+        <img src="../assets/images/sociais/dev-to.png" alt="" />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import InformationLanguageTooltip from "../components/InformationLanguageTooltip.vue";
+
 export default {
   name: "HomeView",
-  components: {},
+  components: {
+    InformationLanguageTooltip,
+  },
+
+  data() {
+    return {
+      javaInformation: "Esta e a mensagem?",
+      javascriptInformation: "Esta e outra mensagem?",
+    };
+  },
 };
 </script>
 
@@ -97,7 +108,7 @@ export default {
 }
 
 .btn-curriculo:hover {
-  background-color: black;
+  background-color: #202124;
 }
 
 .container-2 .btf1 h1 {
@@ -110,14 +121,17 @@ export default {
 }
 
 .sociais-div {
-  width: 100%;
-  margin-top: 35px;
+  width: 80%;
+
+  margin-left: 110px;
+
   height: 150px;
 }
 .sociais-div p {
   margin-top: 20px;
   margin-left: 10px;
-  font-size: 40px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .sociais-div img {
@@ -126,13 +140,15 @@ export default {
 }
 
 .lang-images-div .lang-images {
-  width: 10vh;
+  width: 8vh;
+  margin-left: 10px;
+  margin-top: 20px;
   padding: 10px;
 }
 .lang-images-div p {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-left: 10px;
-  font-size: 35px;
+  font-size: 20px;
 }
 
 @media (max-width: 1200px) {
@@ -142,7 +158,6 @@ export default {
 
   .container-2 .btf1 h1 {
     font-size: 50px;
-    font-family: "Montserrat", sans-serif;
   }
 
   .img-1 {
