@@ -21,7 +21,7 @@
 
         <div class="lang-images-div">
           <p>Linguagens</p>
-          <InformationLanguageTooltip :message="javascriptInformation" />
+          <InformationLanguageTooltip :message="javaInformation" />
           <img
             src="../assets/images/languages/java.png"
             alt=""
@@ -66,8 +66,9 @@ export default {
 
   data() {
     return {
-      javaInformation: "Esta e a mensagem?",
-      javascriptInformation: "Esta e outra mensagem?",
+      javaInformation: "Frameworks: SpringBoot",
+      javascriptInformation:
+        "Frameworks: Node.js, Nest.js, Vue.js, Express, Socket.io ",
     };
   },
 };
