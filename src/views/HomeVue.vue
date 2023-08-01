@@ -130,9 +130,7 @@ export default {
 
 .sociais-div {
   width: 80%;
-
   margin-left: 110px;
-
   height: 150px;
 }
 .sociais-div p {
@@ -202,6 +200,20 @@ export default {
 }
 
 @media (max-width: 400px) {
+  .btf1 {
+    margin: 0px;
+  }
+
+  .lang-images-div {
+    margin-top: 20px;
+  }
+
+  .sociais-div {
+    width: 50%;
+    text-align: center;
+    margin-left: 100px;
+  }
+
   .btf1 p {
     margin: 0px;
   }
