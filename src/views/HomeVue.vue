@@ -12,7 +12,7 @@
 
         <div class="curriculo-a">
           <a
-            href="https://drive.usercontent.google.com/download?id=1TTCes5mB4BYwi3i3CmOXeKy4cxbtPJt5&export=download&authuser=0&confirm=t&uuid=924c90f5-4945-4602-84e1-34c74ac2f430&at=AC2mKKRCB-lrOrbEDPde7Nh262AS:1690916761718"
+            href="https://drive.usercontent.google.com/download?id=1k4_oZPTVWovbrtduRiiaWi2AAWdasr0I&export=download&authuser=0&confirm=t&uuid=2e1f045e-e6af-4ff8-b54f-969c873c13b5&at=APZUnTVlvTXfzv2vB5VOsvfG8B5R:1691775618587"
             download
             class="btn-curriculo"
             >Baixar curriculo</a
