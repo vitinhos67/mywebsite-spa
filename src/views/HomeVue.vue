@@ -20,7 +20,6 @@
         </div>
 
         <div class="lang-images-div">
-          <p>Linguagens</p>
           <InformationLanguageTooltip :message="javaInformation" />
           <img
             src="../assets/images/languages/java.png"
@@ -30,6 +29,36 @@
           <InformationLanguageTooltip :message="javascriptInformation" />
           <img
             src="../assets/images/languages/javascript.png"
+            alt=""
+            class="lang-images"
+          />
+          <img
+            src="../assets/images/languages/typescript.png"
+            alt=""
+            class="lang-images"
+          />
+          <img
+            src="../assets/images/languages/docker.png"
+            alt=""
+            class="lang-images"
+          />
+          <img
+            src="../assets/images/languages/mongodb.png"
+            alt=""
+            class="lang-images"
+          />
+          <img
+            src="../assets/images/languages/node.png"
+            alt=""
+            class="lang-images"
+          />
+          <img
+            src="../assets/images/languages/spring.png"
+            alt=""
+            class="lang-images"
+          />
+          <img
+            src="../assets/images/languages/postgres.png"
             alt=""
             class="lang-images"
           />
@@ -86,6 +115,11 @@ export default {
   display: flex;
 }
 
+.p-linguagens {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
 .img-1 {
   width: 100%; /* Alterado para 100% */
 }
@@ -95,8 +129,7 @@ export default {
 }
 
 .btf1 {
-  margin: 100px;
-  /* position: absolute; REMOVIDO */
+  margin: 100px 100px 30px 100px;
   top: 150px;
 }
 
@@ -134,8 +167,7 @@ export default {
   height: 150px;
 }
 .sociais-div p {
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 5px;
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
 }
@@ -145,8 +177,14 @@ export default {
   margin: 10px;
 }
 
+.lang-images-div {
+  margin-top: 10px;
+  background-color: aliceblue;
+}
+
 .lang-images-div .lang-images {
-  width: 8vh;
+  width: 7vh;
+
   margin-left: 10px;
   margin-top: 20px;
   padding: 10px;
