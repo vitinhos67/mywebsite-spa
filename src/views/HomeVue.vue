@@ -179,7 +179,6 @@ export default {
 
 .lang-images-div {
   margin-top: 10px;
-  background-color: aliceblue;
 }
 
 .lang-images-div .lang-images {
