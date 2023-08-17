@@ -11,12 +11,13 @@
         <h1>Victor Santos</h1>
 
         <div class="curriculo-a">
-          <a
-            href="https://drive.usercontent.google.com/download?id=1k4_oZPTVWovbrtduRiiaWi2AAWdasr0I&export=download&authuser=0&confirm=t&uuid=2e1f045e-e6af-4ff8-b54f-969c873c13b5&at=APZUnTVlvTXfzv2vB5VOsvfG8B5R:1691775618587"
-            download
-            class="btn-curriculo"
-            >Baixar curriculo</a
-          >
+          <button class="btn-curriculo">
+            <a
+              href="https://drive.usercontent.google.com/download?id=1k4_oZPTVWovbrtduRiiaWi2AAWdasr0I&export=download&authuser=0&confirm=t&uuid=2e1f045e-e6af-4ff8-b54f-969c873c13b5&at=APZUnTVlvTXfzv2vB5VOsvfG8B5R:1691775618587"
+              download
+              >Baixar curriculo</a
+            >
+          </button>
         </div>
 
         <div class="lang-images-div">
@@ -140,16 +141,28 @@ export default {
 
 .btn-curriculo {
   padding: 10px;
-  border: 1px solid #202124;
   font-size: 30px;
   color: #ffff;
-  transition: background-color 0.8s ease, box-shadow 0.5s ease;
+  transition: background-color 0.4s ease, box-shadow 0.5s ease;
   border-radius: 10px;
   background-color: #01004c;
 }
 
 .btn-curriculo:hover {
   background-color: #202124;
+  color: #ffffff; /* Altera a cor do texto para branco ao passar o mouse */
+}
+
+/* Remove a formatação padrão do link dentro do botão */
+.btn-curriculo a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Ajusta o espaçamento dentro do botão */
+.btn-curriculo a {
+  display: block;
+  padding: 10px;
 }
 
 .container-2 .btf1 h1 {
@@ -183,7 +196,6 @@ export default {
 
 .lang-images-div .lang-images {
   width: 7vh;
-
   margin-left: 10px;
   margin-top: 20px;
   padding: 10px;
@@ -242,7 +254,8 @@ export default {
   }
 
   .lang-images-div {
-    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .sociais-div {
@@ -253,10 +266,6 @@ export default {
 
   .btf1 p {
     margin: 0px;
-  }
-
-  .btn-curriculo {
-    font-size: 10px;
   }
 
   .container-2 .btf1 h1 {
