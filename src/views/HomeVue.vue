@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <main class="container">
     <div class="container-1">
       <div class="image-container">
         <img src="../assets/images/7081473.jpg" alt="" class="img-1" />
@@ -24,43 +24,43 @@
           <InformationLanguageTooltip :message="javaInformation" />
           <img
             src="../assets/images/languages/java.png"
-            alt=""
+            alt="Imagem da linguagem java"
             class="lang-images"
           />
           <InformationLanguageTooltip :message="javascriptInformation" />
           <img
             src="../assets/images/languages/javascript.png"
-            alt=""
+            alt="Imagem da linguagem Javascript"
             class="lang-images"
           />
           <img
             src="../assets/images/languages/typescript.png"
-            alt=""
+            alt="Imagem da Linguagem Typescript"
             class="lang-images"
           />
           <img
             src="../assets/images/languages/docker.png"
-            alt=""
+            alt="Logo do Docker"
             class="lang-images"
           />
           <img
             src="../assets/images/languages/mongodb.png"
-            alt=""
+            alt="Logo do MongoDB"
             class="lang-images"
           />
           <img
             src="../assets/images/languages/node.png"
-            alt=""
+            alt="Logo do Node"
             class="lang-images"
           />
           <img
             src="../assets/images/languages/spring.png"
-            alt=""
+            alt="Logo do framework Spring"
             class="lang-images"
           />
           <img
             src="../assets/images/languages/postgres.png"
-            alt=""
+            alt="Logo do banco de dados PostgreSQL"
             class="lang-images"
           />
         </div>
@@ -70,7 +70,7 @@
         <p>Sociais</p>
 
         <a href="https://github.com/vitinhos67" target="_blank">
-          <img src="../assets/images/sociais/github.png" alt=""
+          <img src="../assets/images/sociais/github.png" alt="Logo do GitHub"
         /></a>
 
         <a
@@ -78,11 +78,13 @@
         "
           target="_blank"
         >
-          <img src="../assets/images/sociais/linkedin.png" alt=""
+          <img
+            src="../assets/images/sociais/linkedin.png"
+            alt="Logo do Linkedin"
         /></a>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
