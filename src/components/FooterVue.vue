@@ -4,7 +4,7 @@
 
 <script></script>
 
-<style>
+<style scoped>
 footer {
   background-color: #f3f1f6;
   border-top: #dbdbe7 1px solid;

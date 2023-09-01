@@ -1,5 +1,5 @@
 <template>
-  <main class="container">
+  <div class="container">
     <div class="container-1">
       <div class="image-container">
         <img src="../assets/images/7081473.jpg" alt="" class="img-1" />
@@ -84,15 +84,18 @@
         /></a>
       </div>
     </div>
-  </main>
+  </div>
+
+  <AboutMe></AboutMe>
 </template>
 
 <script>
 import InformationLanguageTooltip from "../components/InformationLanguageTooltip.vue";
-
+import AboutMe from "../components/AboutMe.vue";
 export default {
   name: "HomeView",
   components: {
+    AboutMe,
     InformationLanguageTooltip,
   },
 
@@ -108,10 +111,6 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
-
-.body {
-  background-color: #f3f1f6;
-}
 
 .container {
   height: 91vh;

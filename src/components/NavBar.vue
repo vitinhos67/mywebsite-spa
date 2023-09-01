@@ -4,7 +4,7 @@
 
 <script></script>
 
-<style>
+<style scoped>
 nav {
   width: 100%;
   height: 75px;

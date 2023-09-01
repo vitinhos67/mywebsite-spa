@@ -1,8 +1,12 @@
 <template>
   <div class="container-404">
-    <h1>Error: Caminho não encontrado</h1>
+    <p class="text-bird">Você e um passarinho perdido no ninho?</p>
 
-    <h1 class="h1-404">404</h1>
+    <img
+      class="passarinho"
+      src="../assets/images/passarinho.jpeg"
+      alt="Imagem de um passaro"
+    />
     <h2>
       <a href="/">Voltar para pagina principal</a>
     </h2>
@@ -15,12 +19,23 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.text-bird {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+
 .container-404 {
   text-align: center;
   padding-top: 40px;
-
+  background-color: #fcfefd;
   height: 620px;
+}
+
+img.passarinho {
+  width: 400px;
 }
 
 .h1-404 {
@@ -30,7 +45,6 @@ export default {
 
 a {
   text-decoration: none;
-  color: #ffff;
 }
 
 a:hover {
