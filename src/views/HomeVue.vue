@@ -7,8 +7,8 @@
     </div>
     <div class="container-2">
       <div class="btf1">
-        <p>Desenvolvedor back-end</p>
-        <h1>Victor Santos</h1>
+        <p class="main-color-text">Desenvolvedor back-end</p>
+        <h1 class="main-color-text">Victor Santos</h1>
 
         <div class="curriculo-a">
           <button class="btn-curriculo">
@@ -67,31 +67,32 @@
       </div>
 
       <div class="sociais-div">
-        <p>Sociais</p>
+        <div class="content-social-div">
+          <p>Sociais</p>
 
-        <a href="https://github.com/vitinhos67" target="_blank">
-          <img src="../assets/images/sociais/github.png" alt="Logo do GitHub"
-        /></a>
+          <a href="https://github.com/vitinhos67" target="_blank">
+            <img src="../assets/images/sociais/github.png" alt="Logo do GitHub"
+          /></a>
 
-        <a
-          href="https://www.linkedin.com/in/victorsanttos/
-        "
-          target="_blank"
-        >
-          <img
-            src="../assets/images/sociais/linkedin.png"
-            alt="Logo do Linkedin"
-        /></a>
+          <a
+            href="https://www.linkedin.com/in/victorsanttos/
+"
+            target="_blank"
+          >
+            <img
+              src="../assets/images/sociais/linkedin.png"
+              alt="Logo do Linkedin"
+          /></a>
+        </div>
       </div>
     </div>
   </div>
-
   <AboutMe></AboutMe>
 </template>
 
 <script>
 import InformationLanguageTooltip from "../components/InformationLanguageTooltip.vue";
-import AboutMe from "../components/AboutMe.vue";
+import AboutMe from "@/components/AboutMe.vue";
 export default {
   name: "HomeView",
   components: {
@@ -120,6 +121,10 @@ export default {
 .p-linguagens {
   font-size: 25px;
   margin-top: 20px;
+}
+
+.main-color-text {
+  color: #4b4d57;
 }
 
 .img-1 {
@@ -178,6 +183,7 @@ export default {
 .sociais-div {
   width: 80%;
   margin-left: 110px;
+
   height: 150px;
 }
 .sociais-div p {
@@ -235,8 +241,24 @@ export default {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 480px) {
   .img-1 {
+    width: 100%;
+  }
+
+  div.container {
+    height: auto;
+  }
+
+  .content-social-div {
+    text-align: center;
+    margin: auto;
+  }
+
+  .sociais-div {
+    margin: auto;
+    justify-content: center;
+    height: auto;
     width: 100%;
   }
 
@@ -249,19 +271,30 @@ export default {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .btf1 {
     margin: 0px;
   }
 
+  .container {
+    display: block;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .image-container {
+    display: none;
+  }
+
   .lang-images-div {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
   .sociais-div {
     width: 50%;
     text-align: center;
+
     margin-left: 100px;
   }
 

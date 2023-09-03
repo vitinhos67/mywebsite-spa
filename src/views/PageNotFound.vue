@@ -1,15 +1,17 @@
 <template>
   <div class="container-404">
-    <p class="text-bird">Você e um passarinho perdido no ninho?</p>
+    <p class="text-bird">Esta perdido?</p>
 
     <img
-      class="passarinho"
-      src="../assets/images/passarinho.jpeg"
-      alt="Imagem de um passaro"
+      class="animaiszinhos"
+      src="../assets/images/animaiszinhos.png"
+      alt="Animaiszinhos legais e fofinhos. Sendo gatos, cachorros e passaros, e
+        também um ratinho"
     />
-    <h2>
-      <a href="/">Voltar para pagina principal</a>
-    </h2>
+
+    <a href="/">
+      <button class="button-back-page">Voltar para pagina principal</button></a
+    >
   </div>
 </template>
 
@@ -21,21 +23,20 @@ export default {
 
 <style scoped>
 .text-bird {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   font-size: 30px;
   text-align: center;
-  color: red;
 }
 
 .container-404 {
   text-align: center;
   padding-top: 40px;
-  background-color: #fcfefd;
   height: 620px;
 }
 
-img.passarinho {
-  width: 400px;
+img.animaiszinhos {
+  width: 40vw;
+  margin: 30px;
 }
 
 .h1-404 {
@@ -49,5 +50,20 @@ a {
 
 a:hover {
   color: green;
+}
+.button-back-page {
+  display: block;
+  text-decoration: none;
+  margin: auto;
+  color: #ffff;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #01004c;
+  border-radius: 10px;
+  color: #ffffff;
+  transition: background-color 0.4s ease, box-shadow 0.5s ease;
+}
+.button-back-page:hover {
+  background-color: #202124;
 }
 </style>
