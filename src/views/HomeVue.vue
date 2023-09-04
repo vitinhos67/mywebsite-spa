@@ -241,6 +241,25 @@ export default {
   }
 }
 
+@media (max-width: 992px) and (min-width: 768px) {
+  div.container {
+    height: auto;
+  }
+
+  .sociais-div {
+    margin: auto;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .content-social-div {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+}
+
 @media (max-width: 768px) and (min-width: 480px) {
   .img-1 {
     width: 100%;

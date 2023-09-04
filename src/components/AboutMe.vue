@@ -105,6 +105,16 @@ main.container div.content-main {
   }
 }
 
+@media (max-width: 992px) and (min-width: 768px) {
+  main.container {
+    height: auto;
+  }
+
+  main.container div.content-main {
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) and (min-width: 480px) {
   .text-p,
   .main-text,
@@ -119,12 +129,6 @@ main.container div.content-main {
 
   main.container div.content-main {
     width: 100%;
-  }
-}
-
-@media (max-width: 992px) {
-  main.container div.content-main {
-    margin-top: 80px;
   }
 }
 </style>
