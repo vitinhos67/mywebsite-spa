@@ -21,48 +21,7 @@
         </div>
 
         <div class="lang-images-div">
-          <InformationLanguageTooltip :message="javaInformation" />
-          <img
-            src="../assets/images/languages/java.png"
-            alt="Imagem da linguagem java"
-            class="lang-images"
-          />
-          <InformationLanguageTooltip :message="javascriptInformation" />
-          <img
-            src="../assets/images/languages/javascript.png"
-            alt="Imagem da linguagem Javascript"
-            class="lang-images"
-          />
-          <img
-            src="../assets/images/languages/typescript.png"
-            alt="Imagem da Linguagem Typescript"
-            class="lang-images"
-          />
-          <img
-            src="../assets/images/languages/docker.png"
-            alt="Logo do Docker"
-            class="lang-images"
-          />
-          <img
-            src="../assets/images/languages/mongodb.png"
-            alt="Logo do MongoDB"
-            class="lang-images"
-          />
-          <img
-            src="../assets/images/languages/node.png"
-            alt="Logo do Node"
-            class="lang-images"
-          />
-          <img
-            src="../assets/images/languages/spring.png"
-            alt="Logo do framework Spring"
-            class="lang-images"
-          />
-          <img
-            src="../assets/images/languages/postgres.png"
-            alt="Logo do banco de dados PostgreSQL"
-            class="lang-images"
-          />
+          <LanguagesComponent></LanguagesComponent>
         </div>
       </div>
 
@@ -91,13 +50,15 @@
 </template>
 
 <script>
-import InformationLanguageTooltip from "../components/InformationLanguageTooltip.vue";
+import LanguagesComponent from "@/components/LanguagesComponent.vue";
+
 import AboutMe from "@/components/AboutMe.vue";
 export default {
   name: "HomeView",
   components: {
     AboutMe,
-    InformationLanguageTooltip,
+
+    LanguagesComponent,
   },
 
   data() {
@@ -199,18 +160,6 @@ export default {
 
 .lang-images-div {
   margin-top: 10px;
-}
-
-.lang-images-div .lang-images {
-  width: 7vh;
-  margin-left: 10px;
-  margin-top: 20px;
-  padding: 10px;
-}
-.lang-images-div p {
-  margin-top: 25px;
-  margin-left: 10px;
-  font-size: 20px;
 }
 
 @media (max-width: 1200px) {
