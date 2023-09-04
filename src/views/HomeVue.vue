@@ -216,6 +216,20 @@ export default {
 @media (max-width: 1200px) {
   .container {
     flex-direction: column;
+    height: auto;
+  }
+
+  .sociais-div {
+    margin: auto;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .content-social-div {
+    width: 100%;
+    text-align: center;
+    margin: auto;
   }
 
   .container-2 .btf1 h1 {
@@ -223,7 +237,8 @@ export default {
   }
 
   .img-1 {
-    width: 100%;
+    width: 80%;
+    margin: auto;
   }
 
   .btn-curriculo {
@@ -238,6 +253,8 @@ export default {
 
   .container-1 {
     flex: 1; /* Alterado para flex: 1 */
+    margin: 0;
+    padding-left: 13%;
   }
 }
 

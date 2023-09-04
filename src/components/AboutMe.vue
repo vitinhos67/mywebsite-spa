@@ -71,14 +71,12 @@ main.container div.content-main {
   main.container {
     margin-top: 10px;
     height: auto;
-    border: 1px solid red;
   }
 
   main.container div.content-main {
     padding: 0;
     margin: 0;
     width: 100%;
-    border: 1px solid blue;
   }
 
   .text-p {
@@ -102,6 +100,16 @@ main.container div.content-main {
   .p-date {
     padding-left: 5px;
     font-size: 12px;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 922px) {
+  main.container {
+    height: auto;
+  }
+
+  main.container div.content-main {
+    width: 100%;
   }
 }
 
