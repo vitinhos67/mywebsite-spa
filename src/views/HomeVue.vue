@@ -57,16 +57,11 @@ export default {
   name: "HomeView",
   components: {
     AboutMe,
-
     LanguagesComponent,
   },
 
   data() {
-    return {
-      javaInformation: "Frameworks: SpringBoot",
-      javascriptInformation:
-        "Frameworks: Node.js, Nest.js, Vue.js, Express, Socket.io ",
-    };
+    return {};
   },
 };
 </script>

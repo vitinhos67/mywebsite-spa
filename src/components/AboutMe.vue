@@ -3,17 +3,21 @@
     <div class="content-main">
       <h1 class="main-text color-text">Sobre mim</h1>
       <p class="text-p color-text">
-        Nascido e criado no inteiror de Minas. Lorem ipsum dolor sit amet
-        consectetur, adipisicing elit. Error quasi nulla vero, reprehenderit
-        consequatur iste, mollitia nam, quia ex aperiam aspernatur! Debitis
-        quibusdam, cumque unde voluptatem sed molestiae neque sunt! Lorem ipsum
-        dolor sit amet consectetur, adipisicing elit. Recusandae, dignissimos
-        atque dolorum fugiat repellendus nam perferendis sed id. Mollitia
-        placeat sapiente deleniti est, totam voluptatem laborum sit ad? Aliquid,
-        ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-        voluptatem eaque rem earum a rerum magnam cumque quos nobis, ducimus
-        veritatis, velit minima hic adipisci doloremque fugiat possimus ut
-        consequatur.
+        Nasci e fui criado no interior de Minas Gerais. Desde jovem, sempre tive
+        interesse no mundo tecnológico e mantive contato constante com
+        computadores. Atualmente, estudo Análise e Desenvolvimento de Sistemas
+        com o objetivo de me aprofundar ainda mais nessa área e me tornar um
+        profissional capacitado. Estou sempre aberto a aprender, tenho
+        facilidade em absorver novos conhecimentos e estou disposto a aprender
+        com os erros, além de estar pronto para me reinventar, se necessário.
+        <br />
+
+        As tecnologias estão em constante evolução, por isso, mantenho-me
+        dedicado aos estudos, buscando sempre me manter atualizado e próximo do
+        mercado, movido também pela curiosidade. Atualmente, dedico-me aos meus
+        estudos na área de tecnologia e desenvolvimento, utilizando Java no lado
+        do servidor. Além disso, tenho conhecimento na linguagem JavaScript,
+        tanto para o front-end quanto para o back-end.
       </p>
 
       <h1 class="main-text color-text">Formações</h1>
