@@ -46,17 +46,17 @@
       </div>
     </div>
   </div>
-  <AboutMe></AboutMe>
+  <MainContent></MainContent>
 </template>
 
 <script>
 import LanguagesComponent from "@/components/LanguagesComponent.vue";
 
-import AboutMe from "@/components/AboutMe.vue";
+import MainContent from "@/components/main/MainContent.vue";
 export default {
   name: "HomeView",
   components: {
-    AboutMe,
+    MainContent,
     LanguagesComponent,
   },
 
@@ -107,11 +107,11 @@ export default {
   color: #ffff;
   transition: background-color 0.4s ease, box-shadow 0.5s ease;
   border-radius: 10px;
-  background-color: #01004c;
+  background-color: #8953ff;
 }
 
 .btn-curriculo:hover {
-  background-color: #202124;
+  background-color: #01004c;
   color: #ffffff; /* Altera a cor do texto para branco ao passar o mouse */
 }
 

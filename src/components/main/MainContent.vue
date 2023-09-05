@@ -27,6 +27,12 @@
       </h2>
 
       <p class="color-text p-date">AGOSTO/23 - ATUALMENTE</p>
+
+      <a href=""
+        ><button class="btn-redirect-skills">
+          Clique aqui e veja minhas certificações
+        </button></a
+      >
     </div>
 
     <div class="content-main">
@@ -36,7 +42,7 @@
 </template>
 
 <script>
-import ProjectsMain from "./main/ProjectsMain.vue";
+import ProjectsMain from "./ProjectsMain.vue";
 
 export default {
   components: {
@@ -48,6 +54,27 @@ export default {
 <style scoped>
 .color-text {
   color: #4b4d57;
+}
+
+.btn-redirect-skills {
+  margin: 5vh 0 0 3.5vh;
+  font-size: 2vh;
+  padding: 1.5vh 3vh 1.5vh 3vh;
+  color: #ffff;
+  transition: background-color 0.4s ease, box-shadow 0.5s ease;
+  border-radius: 10px;
+  background-color: #8953ff;
+}
+
+.btn-redirect-skills:hover {
+  background-color: #01004c;
+  color: #ffffff; /* Altera a cor do texto para branco ao passar o mouse */
+}
+
+/* Remove a formatação padrão do link dentro do botão */
+.btn-redirect-skills a {
+  color: inherit;
+  text-decoration: none;
 }
 
 main.container div.content-main {

@@ -72,7 +72,7 @@
 }
 
 .btn-redirect-project:hover {
-  background-color: #202124;
+  background-color: #8953ff;
   color: #ffffff; /* Altera a cor do texto para branco ao passar o mouse */
 }
 
