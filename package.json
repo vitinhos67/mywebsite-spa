@@ -15,7 +15,8 @@
     "prettier": "^2.8.3",
     "vue": "^3.2.13",
     "vue-cli": "^2.9.6",
-    "vue-router": "^4.0.3"
+    "vue-router": "^4.0.3",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

@@ -44,7 +44,18 @@
       </div>
     </div>
   </div>
-  <MainContent></MainContent>
+  <div ref="mainContentRef">
+    <MainContent></MainContent>
+  </div>
+
+  <button v-if="showPopup" class="popup" @click="popUpClick">
+    <img
+      src="../assets/images/seta.png"
+      alt="Uma seta sinalizando para baixo"
+      class="seta-popup"
+    />
+    <span class="word-button">Descubra mais</span>
+  </button>
 </template>
 
 <script>
@@ -57,9 +68,29 @@ export default {
     MainContent,
     LanguagesComponent,
   },
+  mounted() {
+    // Exibe o pop-up por alguns segundos quando o componente é montado.
+    this.showPopup = true;
+    setTimeout(() => {
+      this.showPopup = false;
+    }, 5000); // 5 segundos
+  },
+  methods: {
+    popUpClick() {
+      const ButtonRolling = document.querySelector(".popup");
+
+      ButtonRolling.style.display = "none";
+
+      const refMain = this.$refs.mainContentRef;
+
+      refMain.scrollIntoView({ behavior: "smooth" });
+    },
+  },
 
   data() {
-    return {};
+    return {
+      showPopup: false,
+    };
   },
 };
 </script>
@@ -67,8 +98,31 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 
+.popup {
+  position: fixed;
+  bottom: 10px;
+  font-size: 25px;
+  left: 43%;
+  background-color: #8953ff;
+  color: #fff;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+  border: 1px solid #01004c;
+  cursor: pointer;
+  animation: fadeOutAnimation 5s linear;
+}
+
+.word-button {
+  padding-left: 15px;
+}
+
+.seta-popup {
+  width: 15px;
+  transform: rotate(90deg);
+}
+
 .container {
-  height: 89vh;
+  height: 98vh;
   display: flex;
 }
 
@@ -112,6 +166,7 @@ export default {
   transition: background-color 0.4s ease, box-shadow 0.5s ease;
   border-radius: 10px;
   background-color: #8953ff;
+  border: 1px solid #01004c;
 }
 
 .btn-curriculo:hover {
@@ -292,6 +347,15 @@ export default {
 
   .container-2 .btf1 h1 {
     font-size: 50px;
+  }
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 </style>

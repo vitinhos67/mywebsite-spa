@@ -90,6 +90,10 @@
     text-align: center;
   }
 
+  .btn-redirect-skills {
+    margin: 0 auto;
+  }
+
   .main-text {
     margin: 0;
     font-size: 30px;
@@ -99,6 +103,10 @@
 @media (max-width: 480px) {
   body {
     text-align: center;
+  }
+
+  .btn-redirect-skills {
+    padding: 10px 10px 10px 10px;
   }
 
   .text-p {

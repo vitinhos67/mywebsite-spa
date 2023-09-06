@@ -3,7 +3,7 @@
     <div class="content-main">
       <AboutMe></AboutMe>
     </div>
-    <div class="content-main">
+    <div class="content-main" ref="targetElement">
       <ProjectsMain />
     </div>
   </main>
@@ -18,12 +18,16 @@ export default {
     AboutMe,
     ProjectsMain,
   },
+  computed: {},
 };
 </script>
 
 <style scoped>
 main.container div.content-main {
   width: 50%;
+}
+main.container {
+  height: 85vh;
 }
 
 @media (max-width: 480px) {
@@ -62,6 +66,7 @@ main.container div.content-main {
 @media (max-width: 768px) and (min-width: 480px) {
   main.container div.content-main {
     width: 100%;
+    text-align: center;
   }
 }
 </style>
