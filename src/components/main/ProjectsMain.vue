@@ -44,6 +44,7 @@
 </template>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 .color-text {
   color: #4b4d57;
 }
@@ -54,6 +55,7 @@
 
 .main-text {
   font-size: 50px;
+  font-family: "Montserrat", sans-serif;
   padding: 30px 20px 8px 40px;
 }
 

@@ -1,9 +1,7 @@
 <template>
   <div class="container">
     <div class="container-1">
-      <div class="image-container">
-        <img src="../assets/images/7081473.jpg" alt="" class="img-1" />
-      </div>
+      <img src="../assets/images/7081473.jpg" alt="" class="img-1" />
     </div>
     <div class="container-2">
       <div class="btf1">
@@ -70,7 +68,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 
 .container {
-  height: 91vh;
+  height: 89vh;
   display: flex;
 }
 
@@ -88,7 +86,13 @@ export default {
 }
 
 .container-1 {
+  margin: auto;
   flex: 1; /* Alterado para flex: 1 */
+}
+
+.container-2 {
+  height: 75%;
+  margin: auto;
 }
 
 .btf1 {
@@ -226,6 +230,10 @@ export default {
     width: 100%;
   }
 
+  .container-1 {
+    display: none;
+  }
+
   div.container {
     height: auto;
   }
@@ -262,7 +270,7 @@ export default {
     margin-top: 20px;
   }
 
-  .image-container {
+  .container-1 {
     display: none;
   }
 

@@ -26,7 +26,9 @@
 
   <p class="color-text p-date">AGOSTO/23 - ATUALMENTE</p>
 
-  <a href="https://www.linkedin.com/in/victorsanttos/details/certifications/"
+  <a
+    href="https://www.linkedin.com/in/victorsanttos/details/certifications/"
+    target="_blank"
     ><button class="btn-redirect-skills">
       Clique aqui e veja minhas certificações
     </button></a
@@ -34,6 +36,8 @@
 </template>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
 .color-text {
   color: #4b4d57;
 }
@@ -41,7 +45,7 @@
 .btn-redirect-skills {
   margin: 5vh 0 0 3.5vh;
   font-size: 2vh;
-  padding: 1.5vh 3vh 1.5vh 3vh;
+  padding: 1.5vh 6vh 1.5vh 6vh;
   color: #ffff;
   transition: background-color 0.4s ease, box-shadow 0.5s ease;
   border-radius: 10px;
@@ -61,6 +65,7 @@
 
 .main-text {
   font-size: 50px;
+  font-family: "Montserrat", sans-serif;
   padding: 30px 20px 8px 40px;
 }
 

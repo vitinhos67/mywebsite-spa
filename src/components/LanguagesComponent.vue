@@ -1,11 +1,10 @@
 <template>
-  <InformationLanguageTooltip :message="javaInformation" />
   <img
     src="../assets/images/languages/java.png"
     alt="Imagem da linguagem java"
     class="lang-images"
   />
-  <InformationLanguageTooltip :message="javascriptInformation" />
+
   <img
     src="../assets/images/languages/javascript.png"
     alt="Imagem da linguagem Javascript"
@@ -44,12 +43,8 @@
 </template>
 
 <script>
-import InformationLanguageTooltip from "./InformationLanguageTooltip.vue";
-
 export default {
-  components: {
-    InformationLanguageTooltip,
-  },
+  components: {},
   data() {
     return {
       javaInformation: "Frameworks: SpringBoot",
