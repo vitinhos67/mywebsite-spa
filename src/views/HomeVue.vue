@@ -54,7 +54,7 @@
       alt="Uma seta sinalizando para baixo"
       class="seta-popup"
     />
-    <span class="word-button">Descubra mais</span>
+    <span class="word-button">Continue navegando, ou, clique aqui.</span>
   </button>
 </template>
 
@@ -102,12 +102,11 @@ export default {
   position: fixed;
   bottom: 10px;
   font-size: 25px;
-  left: 43%;
+  left: 37%;
   background-color: #8953ff;
   color: #fff;
-  padding: 20px 20px 20px 20px;
+  padding: 10px 20px 10px 20px;
   border-radius: 50px;
-  border: 1px solid #01004c;
   cursor: pointer;
   animation: fadeOutAnimation 5s linear;
 }
@@ -166,7 +165,6 @@ export default {
   transition: background-color 0.4s ease, box-shadow 0.5s ease;
   border-radius: 10px;
   background-color: #8953ff;
-  border: 1px solid #01004c;
 }
 
 .btn-curriculo:hover {
@@ -317,6 +315,11 @@ export default {
 @media (max-width: 480px) {
   .btf1 {
     margin: 0px;
+  }
+
+  .popup {
+    font-size: 15px;
+    left: 27%;
   }
 
   .container {
