@@ -1,13 +1,12 @@
 <template>
   <h1 class="main-text color-text">Sobre mim</h1>
   <p class="text-p color-text">
-    Nasci e fui criado no interior de Minas Gerais. Desde jovem, sempre tive
-    interesse no mundo tecnológico e mantive contato constante com computadores.
-    Atualmente, estudo Análise e Desenvolvimento de Sistemas com o objetivo de
-    me aprofundar ainda mais nessa área e me tornar um profissional capacitado.
-    Estou sempre aberto a aprender, tenho facilidade em absorver novos
-    conhecimentos e estou disposto a aprender com os erros, além de estar pronto
-    para me reinventar, se necessário.
+    Desde jovem, sempre tive interesse no mundo tecnológico e mantive contato
+    constante com computadores. Atualmente, estudo Análise e Desenvolvimento de
+    Sistemas com o objetivo de me aprofundar ainda mais nessa área e me tornar
+    um profissional capacitado. Estou sempre aberto a aprender, tenho facilidade
+    em absorver novos conhecimentos, além de estar pronto para me reinventar, se
+    necessário.
     <br />
 
     As tecnologias estão em constante evolução, por isso, mantenho-me dedicado
