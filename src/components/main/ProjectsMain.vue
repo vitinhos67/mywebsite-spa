@@ -70,11 +70,11 @@
   color: #ffff;
   transition: background-color 0.4s ease, box-shadow 0.5s ease;
   border-radius: 10px;
-  background-color: #01004c;
+  background-color: #8953ff;
 }
 
 .btn-redirect-project:hover {
-  background-color: #8953ff;
+  background-color: #01004c;
   color: #ffffff; /* Altera a cor do texto para branco ao passar o mouse */
 }
 
