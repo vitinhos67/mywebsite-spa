@@ -36,6 +36,19 @@
         do servidor. Além disso, tenho conhecimento na linguagem JavaScript,
         tanto para o front-end quanto para o back-end.
       </p>
+
+      <h2 class="social">Linkedin</h2>
+      <span class="social-span-link"
+        ><a href="https://www.linkedin.com/in/victorsanttos/" target="_blank"
+          >linkedin.com/in/victorsanttos</a
+        ></span
+      >
+      <h2 class="social">GitHub</h2>
+      <span class="social-span-link"
+        ><a href="https://github.com/vitinhos67" target="_blank"
+          >github.com/vitinhos67</a
+        ></span
+      >
     </main>
   </div>
 </template>
@@ -59,10 +72,9 @@ export default {
 }
 
 .container {
-  padding: 5vw;
   display: flex;
   align-items: center;
-  margin: 4.5vw 0 0 0;
+  margin: 4.5vw 0 4.5vw 0;
   width: 30vw;
   flex-direction: column;
 }
@@ -70,7 +82,6 @@ export default {
 .mini-summary {
   width: 30vw;
   font-size: 2vw;
-  padding: 1vw;
 }
 
 .my-name-text {
@@ -84,7 +95,26 @@ export default {
 
 .about-me-text {
   width: 30vw;
+  font-size: 1.5em;
   margin: 1vh;
+}
+
+.social {
+  align-self: flex-start;
+  margin-top: 1vw;
+}
+
+.social-span-link {
+  align-self: start;
+}
+
+a:hover {
+  border-bottom: 1px solid #656565;
+  color: #ffffff;
+}
+
+a:visited {
+  color: #656565;
 }
 
 @media (max-width: 1200px) {
@@ -92,7 +122,22 @@ export default {
 
 @media (max-width: 768px) and (min-width: 480px) {
   .container {
-    width: 50vw;
+    width: 80vw;
+  }
+  .about-me-text {
+    width: 70vw;
+    margin: 1vh;
+    font-size: 1em;
+  }
+  .definition-img {
+    width: 70vw;
+    margin: 0.5vw 0 0.5vw 0;
+  }
+
+  .mini-summary {
+    width: 70vw;
+    font-size: 5vw;
+    padding: 1vw;
   }
 }
 
@@ -101,8 +146,9 @@ export default {
     width: 80vw;
   }
   .about-me-text {
-    width: 80vw;
+    width: 70vw;
     margin: 1vh;
+    font-size: 1em;
   }
   .definition-img {
     width: 70vw;
