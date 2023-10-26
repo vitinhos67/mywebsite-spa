@@ -101,16 +101,18 @@ export default {
 
 .social {
   align-self: flex-start;
+
   margin-top: 1vw;
 }
 
 .social-span-link {
+  text-decoration: none;
+  color: #656565;
   align-self: start;
 }
 
 a:hover {
   border-bottom: 1px solid #656565;
-  color: #ffffff;
 }
 
 a:visited {
