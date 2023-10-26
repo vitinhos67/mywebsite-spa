@@ -74,14 +74,14 @@ export default {
 .container {
   display: flex;
   align-items: center;
-  margin: 4.5vw 0 4.5vw 0;
+  margin: 5em 0 5em 0;
   width: 30vw;
   flex-direction: column;
 }
 
 .mini-summary {
   width: 30vw;
-  font-size: 2vw;
+  font-size: 1.9em;
 }
 
 .my-name-text {
@@ -119,33 +119,42 @@ a:visited {
   color: #656565;
 }
 
-@media (max-width: 1200px) {
-}
-
-@media (max-width: 768px) and (min-width: 480px) {
+@media (max-width: 1000px) {
   .container {
-    width: 80vw;
+    width: 50vw;
   }
   .about-me-text {
-    width: 70vw;
-    margin: 1vh;
     font-size: 1em;
   }
   .definition-img {
-    width: 70vw;
+    width: 40vw;
     margin: 0.5vw 0 0.5vw 0;
   }
 
   .mini-summary {
-    width: 70vw;
-    font-size: 5vw;
+    width: 40vw;
+    font-size: 3vw;
     padding: 1vw;
+  }
+
+  .social-span-link {
+    align-self: center;
+    font-size: 1em;
+  }
+  .social {
+    align-self: center;
+    font-size: 1em;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 780px) {
   .container {
     width: 80vw;
+    padding: 1em;
+  }
+
+  .social {
+    font-size: 1em;
   }
   .about-me-text {
     width: 70vw;
