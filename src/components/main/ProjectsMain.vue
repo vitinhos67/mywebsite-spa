@@ -55,12 +55,11 @@
 
 .main-text {
   font-size: 50px;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
-  padding: 30px 20px 8px 40px;
 }
 
 .p-date {
-  padding-left: 40px;
   font-size: 12px;
 }
 

@@ -1,26 +1,15 @@
 <template>
-  <NavBar></NavBar>
   <router-view />
-
-  <Footer></Footer>
 </template>
 
 <script>
-import NavBar from "./components/NavBar.vue";
-
-import Footer from "./components/FooterVue.vue";
-
 export default {
-  components: {
-    Footer,
-    NavBar,
-  },
+  components: {},
 };
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +17,7 @@ export default {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  background-color: #f3f1f6;
+  font-family: "Merriweather", serif;
+  color: #656565;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <h1 class="main-text color-text">Sobre mim</h1>
-  <p class="text-p color-text">
+  <p class="color-text">
     Desde jovem, sempre tive interesse no mundo tecnológico e mantive contato
     constante com computadores. Atualmente, estudo Análise e Desenvolvimento de
     Sistemas com o objetivo de me aprofundar ainda mais nessa área e me tornar
@@ -19,11 +19,9 @@
 
   <h1 class="main-text color-text">Formações</h1>
 
-  <h2 class="text-p color-text">
-    Análise e Desenvolvimento de Sistemas - Faminas
-  </h2>
+  <h2>Análise e Desenvolvimento de Sistemas - Faminas</h2>
 
-  <p class="color-text p-date">AGOSTO/23 - ATUALMENTE</p>
+  <p>AGOSTO/23 - ATUALMENTE</p>
 
   <a
     href="https://www.linkedin.com/in/victorsanttos/details/certifications/"
@@ -42,8 +40,9 @@
 }
 
 .btn-redirect-skills {
-  margin: 5vh 0 0 3.5vh;
   font-size: 2vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   padding: 1.5vh 6vh 1.5vh 6vh;
   color: #ffff;
   transition: background-color 0.4s ease, box-shadow 0.5s ease;
@@ -63,17 +62,9 @@
 }
 
 .main-text {
+  text-align: left;
   font-size: 50px;
   font-family: "Montserrat", sans-serif;
-  padding: 30px 20px 8px 40px;
-}
-
-.text-p {
-  padding: 30px 20px 8px 40px;
-}
-
-.p-date {
-  padding-left: 40px;
 }
 
 @media (max-width: 1400px) and (min-width: 922px) {
