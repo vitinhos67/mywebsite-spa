@@ -31,10 +31,18 @@
       <p class="about-me-text">
         As tecnologias estão em constante evolução, por isso, mantenho-me
         dedicado aos estudos, buscando sempre me manter atualizado e próximo do
-        mercado, movido também pela curiosidade. Atualmente, dedico-me aos meus
-        estudos na área de tecnologia e desenvolvimento, utilizando Java no lado
-        do servidor. Além disso, tenho conhecimento na linguagem JavaScript,
-        tanto para o front-end quanto para o back-end.
+        mercado, movido também pela curiosidade.
+      </p>
+
+      <p class="about-me-text">
+        Atualmente, me dedico meus estudos na área de tecnologia e
+        desenvolvimento.
+      </p>
+
+      <p class="about-me-text">
+        Tenho proficiência em JavaScript, Java, Spring, Hibernate, AWS, Redis,
+        POO, SOLID, node, bancos de dados relacionais e não relacionais, e
+        Docker.
       </p>
 
       <h2 class="social">Linkedin</h2>
