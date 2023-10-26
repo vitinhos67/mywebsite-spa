@@ -11,7 +11,7 @@
         class="definition-img"
       />
       <span style="font-size: 0.8em"
-        >Esta na imagem e a luna, minha cachorrinha.</span
+        >Está na imagem e a luna, minha cachorrinha.</span
       >
 
       <p class="about-me-text">
