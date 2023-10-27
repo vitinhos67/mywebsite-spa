@@ -4,6 +4,9 @@
       <h1 class="mini-summary">
         Olá, sou o Victor e dedico meu tempo a solucionar problemas.
       </h1>
+      <span style="align-self: flex-start; padding: 5px"
+        >Desenvolvedor back-end</span
+      >
 
       <img
         src="../assets/images/luna.jpg"
@@ -11,7 +14,7 @@
         class="definition-img"
       />
       <span style="font-size: 0.8em"
-        >Está na imagem e a luna, minha cachorrinha.</span
+        >Está na imagem e a luna, minha companheira.</span
       >
 
       <p class="about-me-text">
