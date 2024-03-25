@@ -5,14 +5,16 @@
         Olá, sou o Victor e dedico meu tempo a solucionar problemas.
       </h1>
 
-      <img
-        src="../assets/images/luna.jpg"
-        alt="Imagem de minha cachorrinha luna"
-        class="definition-img"
-      />
-      <span style="font-size: 0.8em"
-        >Está na imagem e a luna, minha companheira.</span
-      >
+      <div class="luna">
+        <img
+          src="../assets/images/luna.jpg"
+          alt="Imagem de minha cachorrinha luna"
+          class="definition-img"
+        />
+        <p style="font-size: 0.8em">
+          Está na imagem e a luna, minha companheira.
+        </p>
+      </div>
 
       <p class="about-me-text">
         Desde jovem, sempre tive interesse no mundo tecnológico e mantive
@@ -88,7 +90,8 @@ export default {
 
 .mini-summary {
   width: 30vw;
-  font-size: 1.9em;
+  margin-left: 10px;
+  font-size: 1.4em;
 }
 
 .my-name-text {
@@ -105,6 +108,10 @@ export default {
   font-size: 1.5em;
   margin: 1vh;
   padding-top: 15px;
+}
+
+.luna {
+  text-align: center;
 }
 
 .social {
