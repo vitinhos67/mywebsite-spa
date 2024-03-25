@@ -4,9 +4,6 @@
       <h1 class="mini-summary">
         Olá, sou o Victor e dedico meu tempo a solucionar problemas.
       </h1>
-      <span style="align-self: flex-start; padding: 5px"
-        >Desenvolvedor back-end</span
-      >
 
       <img
         src="../assets/images/luna.jpg"
@@ -44,22 +41,20 @@
 
       <p class="about-me-text">
         Tenho proficiência em JavaScript, Java, Spring, Hibernate, AWS, Redis,
-        POO, SOLID, node, bancos de dados relacionais e não relacionais, e
-        Docker.
+        POO, SOLID, node, PHP, Laravel, Angular2/AngularJS, bancos de dados
+        relacionais e não relacionais, e Docker.
       </p>
 
-      <h2 class="social">Linkedin</h2>
-      <span class="social-span-link"
-        ><a href="https://www.linkedin.com/in/victorsanttos/" target="_blank"
-          >linkedin.com/in/victorsanttos</a
-        ></span
-      >
-      <h2 class="social">GitHub</h2>
+      <span class="social-span-link">
+        <a href="https://www.linkedin.com/in/victorsanttos/" target="_blank"
+          ><img src="../assets/icons8-linkedin-50.png" /></a
+      ></span>
       <span class="social-span-link"
         ><a href="https://github.com/vitinhos67" target="_blank"
-          >github.com/vitinhos67</a
-        ></span
-      >
+          ><img
+            src="../assets/images/sociais/github.png"
+            style="width: 50px" /></a
+      ></span>
     </main>
   </div>
 </template>
@@ -83,9 +78,8 @@ export default {
 }
 
 .container {
-  display: flex;
   align-items: center;
-  margin: 5em 0 5em 0;
+  margin: 2em 0 5em 0;
   width: 30vw;
   flex-direction: column;
 }
@@ -108,11 +102,12 @@ export default {
   width: 30vw;
   font-size: 1.5em;
   margin: 1vh;
+  padding-top: 15px;
 }
 
 .social {
   align-self: flex-start;
-
+  padding-top: 15px;
   margin-top: 1vw;
 }
 
@@ -120,10 +115,6 @@ export default {
   text-decoration: none;
   color: #656565;
   align-self: start;
-}
-
-a:hover {
-  border-bottom: 1px solid #656565;
 }
 
 a:visited {
