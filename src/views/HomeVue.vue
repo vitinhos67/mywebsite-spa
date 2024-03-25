@@ -45,16 +45,18 @@
         relacionais e não relacionais, e Docker.
       </p>
 
-      <span class="social-span-link">
-        <a href="https://www.linkedin.com/in/victorsanttos/" target="_blank"
-          ><img src="../assets/icons8-linkedin-50.png" /></a
-      ></span>
-      <span class="social-span-link"
-        ><a href="https://github.com/vitinhos67" target="_blank"
-          ><img
-            src="../assets/images/sociais/github.png"
-            style="width: 50px" /></a
-      ></span>
+      <div class="social">
+        <span class="social-span-link">
+          <a href="https://www.linkedin.com/in/victorsanttos/" target="_blank"
+            ><img src="../assets/icons8-linkedin-50.png" /></a
+        ></span>
+        <span class="social-span-link"
+          ><a href="https://github.com/vitinhos67" target="_blank"
+            ><img
+              src="../assets/images/sociais/github.png"
+              style="width: 50px" /></a
+        ></span>
+      </div>
     </main>
   </div>
 </template>
